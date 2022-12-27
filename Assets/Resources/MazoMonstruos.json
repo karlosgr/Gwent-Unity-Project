@@ -1,0 +1,170 @@
+{
+  "Deck": [
+
+    {
+      "Id": 54,
+      "Name": "Vampiro Superior",
+      "Power": 4,
+      "Description": "Inglige 2 de damage a una unidad enemiga aleatoria y se potencia con esa cantidad",
+      "Efect": "{RandomPower(eField, 1,-2); SelfPower(2)}",
+      "ImageUrl": "b5bd1b35f8c04acb808cecb45a5202a270cb98d6",
+      "Efecttype": 2
+    },
+    {
+      "Id": 55,
+      "Name": "Hombre Lobo",
+      "Power": 3,
+      "Description": "Inflige 2 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-2)}",
+      "ImageUrl": "ed89040d76ae7e44dfb8f8dba40f4261",
+      "Efecttype": 0
+    },
+    {
+      "Id": 56,
+      "Name": "Murcielago Gigante",
+      "Power": 3,
+      "Description": "Inflige 1 de damage a dos unidades enemigas aleatorias",
+      "Efect": "{RandomPower(eField, 2, -1)}",
+      "ImageUrl": "imgbin-gwent-the-witcher-card-game-geralt-of-rivia-the-witcher-3-hearts-of-stone-cd-projekt-the-witcher-spCbVVtVTxP1nMPhu8eDMvx1w_t",
+      "Efecttype": 2
+    },
+    {
+      "Id": 57,
+      "Name": "Guerrero de la Caceria Nocturna",
+      "Power": 5,
+      "Description": "Destruye una unidad enemiga",
+      "Efect": "{Destroy()}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-the-witcher-3-wild-h-eredin-bracc-glas-gwent-card-gwent-io-5b7cbdec9f7655.5090381215349017406532",
+      "Efecttype": 0
+    },
+    {
+      "Id": 58,
+      "Name": "Caballero de la Caceria Nocturna",
+      "Power": 4,
+      "Description": "Se potencia en 2",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-the-witcher-3-wild-h-gwent-5b15a9f5012902.4630138215281464210048",
+      "Efecttype": 2
+    },
+    {
+      "Id": 59,
+      "Name": "Guerrero no muerto",
+      "Power": 3,
+      "Description": "Se potencia en 1 a por cada carta en tu campo",
+      "Efect": "{SelfPower(Get(field,  all))}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-blood-and-wine-geralt-of-rivia-elf-game-elf",
+      "Efecttype": 1
+    },
+    {
+      "Id": 60,
+      "Name": "Bruja Maldita",
+      "Power": 2,
+      "Description": "Potencia en 2 a una unidad aliada",
+      "Efect": "{TargetedPower(2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-digital-art-coral-gwent-cg-artwork-computer-wallpaper",
+      "Efecttype": 1
+    },
+    {
+      "Id": 61,
+      "Name": "Espiritu del Bosque",
+      "Power": 3,
+      "Description": "Se potencia con el poder de la unidad mas debil del campo enemigo",
+      "Efect": "{SelfPower(Get(eField, lessP))}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-leshy-geralt-of-rivia-the-witcher-game-dragon-thumbnail",
+      "Efecttype": 2
+    },
+    {
+      "Id": 62,
+      "Name": "Sirena?",
+      "Power": 2,
+      "Description": "Inflige 1 de damage a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-cd-projekt-jotunn-lamia-game-dragon-fictional-character",
+      "Efecttype": 2
+    },
+    {
+      "Id": 63,
+      "Name": "Necrofago",
+      "Power": 3,
+      "Description": "Se quita dos de poder a si mismo y el doble a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -4); SelfPower(-2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-ghoul-the-witcher-3-wild-hunt-blood-and-wine-monster-ghoul-game-witcher-ciri",
+      "Efecttype": 2
+    },
+    {
+      "Id": 64,
+      "Name": "Dragonoide",
+      "Power": 4,
+      "Description": "Se potencia en 2",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-concept-art-wyvern-design-dragon-fictional-character-cd-projekt-thumbnail",
+      "Efecttype": 2
+    },
+    {
+      "Id": 65,
+      "Name": "Moira",
+      "Power": 2,
+      "Description": "Potencia en 2 a una unidad aliada y inflige 1 de damage a una unidad enemiga aleatoria",
+      "Efect": "{TargetedPower(2); RandomPower(eField, 1, -1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-crone-geralt-of-rivia-others-game-video-game-fictional-character-thumbnail",
+      "Efecttype": 1
+    },
+    {
+      "Id": 66,
+      "Name": "Ogro Gigante",
+      "Power": 8,
+      "Description": "ningun efecto",
+      "Efect": "{}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-cyclops-greek-mythology-cyclop-painting-cd-projekt-eye",
+      "Efecttype":2
+    },
+    {
+      "Id": 67,
+      "Name": "Espiritu de las profundidades",
+      "Power": 4,
+      "Description": "Inflige 1 de damage a todas las unidades enemigas",
+      "Efect": "{SelectPower(eField, all, -1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-dagon-cd-projekt-emhyr-var-emreis-playstation-4-fictional-character-cd-projekt-thumbnail",
+      "Efecttype": 2
+    },
+    {
+      "Id": 68,
+      "Name": "Golem Gigante",
+      "Power": 7,
+      "Description": "ningun efecto",
+      "Efect": "{}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-elemental-art-fire-elemental-poster-video-game-cd-projekt",
+      "Efecttype":2
+    },
+    {
+      "Id": 69,
+      "Name": "Rey Eredin",
+      "Power": 2,
+      "Description": "Potencia en 2 a todas tus unidades",
+      "Efect": "{SelectPower(field, all, 2)}",
+      "ImageUrl": "Tw3_cardart_monsters_eredin_silver",
+      "Efecttype": 2
+    },
+    {
+      "Id": 70,
+      "Name": "Necrofago",
+      "Power": 3,
+      "Description": "Se quita dos de poder a si mismo y el doble a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -4); SelfPower(-2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-ghoul-the-witcher-3-wild-hunt-blood-and-wine-monster-ghoul-game-witcher-ciri",
+      "Efecttype": 2
+    },
+    {
+      "Id": 62,
+      "Name": "Sirena?",
+      "Power": 2,
+      "Description": "Inflige 1 de damage a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-cd-projekt-jotunn-lamia-game-dragon-fictional-character",
+      "Efecttype": 2
+    }
+
+
+
+  ]
+}

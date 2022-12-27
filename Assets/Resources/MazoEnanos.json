@@ -1,0 +1,173 @@
+{
+  "Deck": [
+    {
+      "Id": 18,
+      "Name": "Enano Escudero",
+      "Power": 3,
+      "Description": "Potencia a una unidad aliada en 3",
+      "Efect": "{TargetedPower(3)}",
+      "ImageUrl": "c841d15d91e61b31efd19fdcb2967ad9",
+      "Efecttype":1
+    },
+
+    {
+      "Id": 19,
+      "Name": "Escuadron Enano",
+      "Power": 2,
+      "Description": "Invoca todas las copias de esta carta de la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "f5fbc14f9a6dac29dd37926efeb550aa",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 20,
+      "Name": "Escuadron Enano",
+      "Power": 2,
+      "Description": "Invoca todas las copias de esta carta de la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "f5fbc14f9a6dac29dd37926efeb550aa",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 21,
+      "Name": "Escuadron Enano",
+      "Power": 2,
+      "Description": "Invoca todas las copias de esta carta de la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "f5fbc14f9a6dac29dd37926efeb550aa",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 22,
+      "Name": "Enano Cazabestias",
+      "Power": 4,
+      "Description": "Inflige 3 de Damage a un enemigo",
+      "Efect": "{TargetedPower(-3)}",
+      "ImageUrl": "gw9siojlk0e31",
+      "Efecttype":0
+    },
+
+    {
+      "Id": 23,
+      "Name": "Comandante Enano",
+      "Power": 4,
+      "Description": "Potencia a todas tus unidades aliadas en 1",
+      "Efect": "{SelectPower(field, all, 1)}",
+      "ImageUrl": "Gwent_cardart_scoiatael_barclay_els",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 24,
+      "Name": "Enano Arquero",
+      "Power": 3,
+      "Description": "Inflige 1 de damage a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -1)}",
+      "ImageUrl": "Gwent_cardart_scoiatael_dwarven_mercenary",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 25,
+      "Name": "Zoltan",
+      "Power": 5,
+      "Description": "Destruye una unidad enemiga",
+      "Efect": "{Destroy()}",
+      "ImageUrl": "Gwent_cardart_scoiatael_zoltan-_warrior",
+      "Efecttype":0
+    },
+
+    {
+      "Id": 26,
+      "Name": "Enano Berserk",
+      "Power": 4,
+      "Description": "Se inflige 2 de damage y le inglige el doble a una unidad enemiga aleatoria",
+      "Efect": "{SelfPower(-2); RandomPower(eField, 1, -2)}",
+      "ImageUrl": "HORV7L6hvBy_dZptJvU9V3oPPFBtUVkUf2qK6nE8PG8",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 27,
+      "Name": "Rey Enano",
+      "Power": 4,
+      "Description": "Se potencia en 1 por cada enano que haya en tu campo",
+      "Efect": "{SelfPower(Get(field, all))}",
+      "ImageUrl": "Img-50236",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 28,
+      "Name": "Enano Guerrero",
+      "Power": 4,
+      "Description": "Inflige 2 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-2)}",
+      "ImageUrl": "imgbin-gwent-the-witcher-card-game-the-art-of-the-witcher-gwent-gallery-collection-the-witcher-3-wild-hunt-others-hfDSAMAffajSLa8px7ShBJumd_t",
+      "Efecttype":0
+    },
+
+    {
+      "Id": 29,
+      "Name": "Enano Bandido",
+      "Power": 3,
+      "Description": "Se potencia en 2",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-skirmisher-infantry-dwarf-army-dwarf-regiment-infantry",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 30,
+      "Name": "Bardo Enano",
+      "Power": 2,
+      "Description": "Potencia en 2 a todas tus unidades",
+      "Efect": "{SelectPower(field, all, 2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-scottish-clan-others-video-game-dwarf-thumbnail",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 31,
+      "Name": "Renegado",
+      "Power": 4,
+      "Description": "Inflige 3 de damage a una unidad enemiga aleatoria",
+      "Efect": "{RandomPower(eField, 1, -3)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-dungeons-dragons-dwarf-cd-projekt-the-witcher-3-wild-hunt-dwarf-fictional-character-cartoon-dwarf",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 32,
+      "Name": "Enano Herrero",
+      "Power": 3,
+      "Description": "Potencia en 3 a una unidad aliada",
+      "Efect": "{TargetedPower(3)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-community-clan-others",
+      "Efecttype":1
+    },
+
+    {
+      "Id": 33,
+      "Name": "Batallon Enano",
+      "Power": 3,
+      "Description": "Convoca todas las copias de esta carta de la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-geralt-of-rivia-dwarf-dudu31-game-video-game-fictional-character-thumbnail",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 34,
+      "Name": "Batallon Enano",
+      "Power": 3,
+      "Description": "Convoca todas las copias de esta carta de la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-geralt-of-rivia-dwarf-dudu31-game-video-game-fictional-character-thumbnail",
+      "Efecttype":2
+    }
+  ]
+}

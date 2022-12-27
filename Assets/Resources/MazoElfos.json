@@ -1,0 +1,183 @@
+{
+  "Deck":
+  [
+    {
+      "Id": 1,
+      "Name": "Bandido Elfico",
+      "Power": 3,
+      "Description": "Invoca todas las copias de esta carta q tengas en la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-video-game-the-art-of-the-witcher-gwent-gallery-collection-concept-art-others-game-elf",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 2,
+      "Name": "Bandido Elfico",
+      "Power": 3,
+      "Description": "Invoca todas las copias de esta carta q tengas en la baraja",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-video-game-the-art-of-the-witcher-gwent-gallery-collection-concept-art-others-game-elf",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 3,
+      "Name": "Bardo Elfo",
+      "Power": 2,
+      "Description": "Potencia a todas tus unidades en 2",
+      "Efect": "{SelectPower(field, all, 2)}",
+      "ImageUrl": "Eldain_por_Anna_Podedworna",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 4,
+      "Name": "Driade Curandera",
+      "Power": 5,
+      "Description": "Se Potencia en 1 por cada carta potenciada en el campo",
+      "Efect":"{SelfPower(Get(field, empowered))}",
+      "ImageUrl": "imgbin-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-geralt-of-rivia-art-cd-projekt-yennefer-wmkF7P21YSAg5M6uvAU5Yu4LG_t",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 5,
+      "Name": "Driade Guerrera",
+      "Power": 4,
+      "Description": "Se potencia en 2",
+      "Efect": "{SelfPower(2)}",
+      "ImageUrl": "W6bbxKX9KBTNA-tBPZsKikXq0lBLiu6j7YzDATc41U0",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 6,
+      "Name": "Driade Joven",
+      "Power": 3,
+      "Description": "cura a una unidad aliada",
+      "Efect": "{OrigPower()}",
+      "ImageUrl": "e419145bbc6d63e13d6f04f487627ca9",
+      "Efecttype": 1
+    },
+
+    {
+      "Id": 7,
+      "Name": "Elfo Picaro",
+      "Power": 3,
+      "Description": "Inflige 2 de da�o a una unidad enemiga",
+      "Efect": "{TargetedPower(-2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-elf-the-witcher-3-wild-hunt-mercenary-goblin-elf-elf-video-game-fictional-character-thumbnail",
+      "Efecttype": 0
+    },
+
+    {
+      "Id": 8,
+      "Name": "Emboscador Elfico",
+      "Power": 3,
+      "Description": "Inflige da�o a una unidad enemiga igual al poder de la carta mas debil de tu lado del campo",
+      "Efect": "{RandomPower(eField, 1, -Get(field, lessP))}",
+      "ImageUrl": "Gwent_cardart_scoiatael_elven_deadeye",
+      "Efecttype": 0
+    },
+
+    {
+      "Id": 9,
+      "Name": "Emboscador Elfico",
+      "Power": 3,
+      "Description": "Inflige da�o a una unidad enemiga igual al poder de la carta mas debil de tu lado del campo",
+      "Efect": "{RandomPower(eField, 1, -Get(field, lessP))}",
+      "ImageUrl": "Gwent_cardart_scoiatael_elven_deadeye",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 10,
+      "Name": "Explorador Elfo",
+      "Power": 3,
+      "Description": "Se potencia con una cantidad igual a la carta mas debil de tu rival",
+      "Efect": "{SelfPower(Get(eField, lessP))}",
+      "ImageUrl": "gwent-the-witcher-card-game-the-witcher-3-wild-hunt-half-elf-cd-projekt-png-favpng-GnHnhSt69v2yf9Puuq1ByYDix",
+      "Efecttype":2
+    },
+
+    {
+      "Id": 11,
+      "Name": "Guardia Elfico",
+      "Power": 4,
+      "Description": "Se inflige 1 de da�o a el mismo y despues potencia en 2 a una unidad aliada aleatoria",
+      "Efect": "{SelfPower(-1); RandomPower(field, 1, 2)}",
+      "ImageUrl": "113653",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 12,
+      "Name": "Guardia Elfico",
+      "Power": 4,
+      "Description": "Se inflige 1 de da�o a el mismo y despues potencia en 2 a una unidad aliada aleatoria",
+      "Efect": "{SelfPower(-1); RandomPower(field, 1, 2)}",
+      "ImageUrl": "113653",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 13,
+      "Name": "Infanteria Elfica",
+      "Power": 2,
+      "Description": "Propina 1 de da�o a 3 unidades enemigas aleatorias",
+      "Efect": "{RandomPower(eField, 3, -1)}",
+      "ImageUrl": "Img-50122",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 14,
+      "Name": "Princesa Arquera",
+      "Power": 4,
+      "Description": "Otorga 4 de da�o a una unidad enemiga",
+      "Efect": "{TargetedPower(-4)}",
+      "ImageUrl": "imgbin-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-the-witcher-2-assassins-of-kings-cd-projekt-wiki-gwent-CRqJZFLs0GGKFnUXWx6pdsR7Y_t",
+      "Efecttype": 0
+    },
+
+    {
+      "Id": 15,
+      "Name": "Reina Elfo",
+      "Power": 2,
+      "Description": "Potencia a una unidad aliada con una cantidad igual a la cantidad de cartas en tu campo",
+      "Efect": "{TargetedPower(Get(field, all))}",
+      "ImageUrl": "imgbin-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-blood-and-wine-cd-projekt-others-F2Fkj0QGaV6W1gpGS6Q8w69ka",
+      "Efecttype": 1
+    },
+
+    {
+      "Id": 16,
+      "Name": "Toruviel",
+      "Power": 6,
+      "Description": "Inflige uno de da�o a todas las unidades enemigas",
+      "Efect": "{SelectPower(eField, all, -1)}",
+      "ImageUrl": "gwent-the-witcher-card-game-geralt-of-rivia-the-last-wish-cd-projekt-png-favpng-1pTNEA87kWUvKAKUGcsS6tT93",
+      "Efecttype": 2
+    },
+
+    {
+      "Id": 17,
+      "Name": "Vanguardia Elfica",
+      "Power": 3,
+      "Description": "Potencia a una unidad aleatoria en 2",
+      "Efect": "{RandomPower(field, 1, 2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-cd-projekt-dungeons-dragons-elf-gwent-elf-fictional-character-cd-projekt",
+      "Efecttype": 2
+    }
+
+  ]
+
+
+
+
+
+
+
+
+}

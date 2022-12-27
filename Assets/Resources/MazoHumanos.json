@@ -1,0 +1,176 @@
+{
+  "Deck": [
+
+    {
+      "Id": 35,
+      "Name": "Escudero Ascendido",
+      "Power": 3,
+      "Description": "Se potencia en 2 si es la unica carta de tu campo",
+      "Efect": "{If(Get(field, all) == 1){SelfPower(2)}}",
+      "ImageUrl": "8fbe48d7a5d40a7aad2fb187bee47f96",
+      "Efecttype": 2
+    },
+    {
+      "Id": 36,
+      "Name": "Comandante de Caballeria",
+      "Power": 2,
+      "Description": "Se potencia en 1 por cada unidad aliada",
+      "Efect": "{SelfPower(Get(field,all)}",
+      "ImageUrl": "5609ee487a9f0c6fff49d372f53b15b4",
+      "Efecttype": 2
+    },
+    {
+      "Id": 37,
+      "Name": "General Despiadado",
+      "Power": 2,
+      "Description": "Disminuye el poder de una unidad aleatoria aliada en 4 y Destruye a una unidad enemiga",
+      "Efect": "{RandomPower(field, 1, -4); Destroy()}",
+      "ImageUrl": "113819",
+      "Efecttype": 0
+    },
+    {
+      "Id": 38,
+      "Name": "Infanteria Humana",
+      "Power": 3,
+      "Description": "Inflige 1 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-1)}",
+      "ImageUrl": "Gwent_Witcher_Card_Game_iOS_Android_012",
+      "Efecttype": 0
+    },
+    {
+      "Id": 39,
+      "Name": "Bardo Humano",
+      "Power": 2,
+      "Description": "Potencia en 2 a todas tus unidades",
+      "Efect": "{SelectPower(field, all, 2)}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-geralt-of-rivia-the-w-dandelion-icon-5b45e94dd795a5.5024511115313083658831",
+      "Efecttype": 2
+    },
+    {
+      "Id": 40,
+      "Name": "Rey Foltest",
+      "Power": 2,
+      "Description": "Se potencia en 1 por cada carta enemiga y aliada",
+      "Efect": "{SelfPower(Get(field,all) + Get(eField, all))}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-geralt-of-rivia-the-w-emhyr-var-emreis-5b24adf7486fe3.6354783115291304872967",
+      "Efecttype": 2
+    },
+    {
+      "Id": 41,
+      "Name": "Than el MataGigantes",
+      "Power": 4,
+      "Description": "Inglige a una unidad enemiga un damage igual a tu carta mas debil",
+      "Efect": "{TargetedPower(Get(field, lessP))}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-magic-the-gathering-cardart-5b068b88ccf5d7.8677916715271555928395",
+      "Efecttype": 0
+    },
+    {
+      "Id": 42,
+      "Name": "Guerrero Domador de Osos",
+      "Power": 3,
+      "Description": "Inflige 2 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-2)}",
+      "ImageUrl": "kisspng-gwent-the-witcher-card-game-the-witcher-3-wild-h-bear-attack-5b33323b31b650.6638581115300818512036",
+      "Efecttype": 0
+    },
+    {
+      "Id": 43,
+      "Name": "Oso Salvaje",
+      "Power": 6,
+      "Description": "ningun efecto",
+      "Efect": "{}",
+      "ImageUrl": "1517641200_641200_000001_album_normal",
+      "Efecttype": 2
+    },
+    {
+      "Id": 44,
+      "Name": "Oso Salvaje",
+      "Power": 6,
+      "Description": "ningun efecto",
+      "Efect": "{}",
+      "ImageUrl": "1517641200_641200_000001_album_normal",
+      "Efecttype": 2
+    },
+    {
+      "Id": 45,
+      "Name": "Curandera",
+      "Power": 1,
+      "Description": "Potencia en 4 a una unidad aliada",
+      "Efect": "{TargetedPower(4)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-nenneke-the-witcher-3-wild-hunt-video-game-others-game-video-game",
+      "Efecttype": 1
+    },
+    {
+      "Id": 46,
+      "Name": "Navio de Guerra",
+      "Power": 5,
+      "Description": "Inflige 2 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-blood-and-wine-geralt-of-rivia-playing-card-cd-projekt-gwent-card-art-game-cd-projek",
+      "Efecttype": 0
+    },
+    {
+      "Id": 47,
+      "Name": "Infanteria Humana",
+      "Power": 3,
+      "Description": "Inflige 1 de damage a una unidad enemiga",
+      "Efect": "{TargetedPower(-1)}",
+      "ImageUrl": "Gwent_Witcher_Card_Game_iOS_Android_012",
+      "Efecttype": 0
+    },
+    {
+      "Id": 48,
+      "Name": "Guardias Reales",
+      "Power": 3,
+      "Description": "Potencia a una unidad aliada en 2",
+      "Efect": "{TargetedPower(2)}",
+      "ImageUrl": "png-clipart-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-cd-projekt-gwent-card-art-game-playstation-4-thumbnail",
+      "Efecttype": 1
+    },
+    {
+      "Id": 49,
+      "Name": "Refuerzos",
+      "Power": 2,
+      "Description": "Se potencia en 1",
+      "Efect": "{SelfPower(1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-army-the-witcher-3-wild-hunt-others-game-video-game-infantry",
+      "Efecttype": 2
+    },
+    {
+      "Id": 50,
+      "Name": "Refuerzos",
+      "Power": 2,
+      "Description": "Se potencia en 1",
+      "Efect": "{SelfPower(1)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-army-the-witcher-3-wild-hunt-others-game-video-game-infantry",
+      "Efecttype": 2
+    },
+    {
+      "Id": 51,
+      "Name": "Gloria a los Caidos",
+      "Power": 2,
+      "Description": "Se potencia en 1 por cada carta en el cementerio",
+      "Efect": "{SelfPower(Get(field, all))}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-geralt-of-rivia-the-witcher-3-wild-hunt-cd-projekt-gwent-cg-artwork-computer-wallpaper-video-game-thumbnail",
+      "Efecttype": 2
+    },
+    {
+      "Id": 52,
+      "Name": "Caballero de Elite",
+      "Power": 5,
+      "Description": "Inglige 2 de damage a dos unidades enemigas aleatorias",
+      "Efect": "{RandomPower(eField, 2, -2)}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-the-witcher-3-wild-hunt-cd-projekt-emhyr-var-emreis-others-game-cd-projekt-weapon",
+      "Efecttype": 2
+    },
+    {
+      "Id": 53,
+      "Name": "Comandante Benevolente",
+      "Power": 4,
+      "Description": "Se potencia en 1 por cada unidad aliada",
+      "Efect": "{SelfPower(Get(field, all))}",
+      "ImageUrl": "png-transparent-gwent-the-witcher-card-game-wiki-art-emhyr-var-emreis-gwent-game-cd-projekt-picture-frame",
+      "Efecttype": 2
+    }
+  ]
+}
